@@ -1,1 +1,0 @@
-# kuyajp123.github.io
