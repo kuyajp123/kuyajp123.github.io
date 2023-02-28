@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOHN PAUL NAAG</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/df54167fd7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!----------PC-------------->
+        <div class="container">
+            <nav class="nav">
+                <h3 class="header-n">N</h3>
+                <h2 class="header-i">I</h2>
+                <P class="header-aag">AAG</P>
+                <h1 class="header-dustries">DUSTRIES</h1>
+                <h4 class="header-n2">N</h4>
+                <ul id="sidemenu">
+                    <li> <i class="fa-solid fa-house"></i><a class="me" href="#me">Me</a></li>
+                    <li><i class="fa-solid fa-address-card"></i><a class="about" href="#about">About</a></li>
+                    <li><i class="fa-solid fa-heart"></i><a class="hobbies" href="#services">Hobbies</a></li>
+                    <li><i class="fa-solid fa-thumbs-up"></i><a class="likes" href="#porfolio">Likes</a></li>
+                    <li><i class="fa-solid fa-phone"></i><a class="contact" href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" id="iconx" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" id="icon" onclick="openmenu()"></i>
+                <i class="fa-solid fa-moon" id="moon"></i>
+            </nav>
+            <div id="me">
+                <div class="text-me">
+                    <p>I.T Student</p>
+                    <h1>Hi, I,m John Paul <span>Naag</span> <br> from CVSU</h1>
+                    <h6>Mamaw mag i miss you</h6>
+                </div>
+            </div>
+            <section class="banner"></section>
+            <script type="text/javascript">
+                window.addEventListener("scroll", function(){
+                    var header = document.querySelector("nav");
+                    header.classList.toggle("sticky", window.scrollY > 0);
+                })
+            </script>
+        </div>
+    <!-----about------>
+    <div id="about">
+        <div class="container">
+           <div class="row">
+               <div class="about-col-1">
+                   <img src="images/aboutbackground.png" data-aos="fade-right" data-aos-duration="1500">
+               </div>
+               <div class="about-col-2">
+                   <h1 class="sub-title1" data-aos="fade-down"  data-aos-once="false">About Me</h1>
+                   <p data-aos="zoom-in">Hi! My name is John Paul Naag, 20 years old. I live in Cavite, Philippines and this is my Official Website.
+                       and I'm currently on my first year in college studying the IT Course at Cavite State University Trece Martires City Campus.
+                        I'm eager to learn more about my course and acquire new skills in order to succeed in the future.
+                        I have always been interested in computers that's why i want to become a programmer in the near future.
+                       I am eager to learn and improve my skills and excited to see what the future holds as a students into the world of technology.
+                    I created this website on february 16, 2023. Hindi pa responsive itong website ko sa ibang device, tinamad na kase ako ayusin HAHAHA but i try to fix em.</p>
+   
+                       <div class="tab-titles">
+                           <p class="tab-links active-link" onclick="opentab('skills')" data-aos="fade-up">SKILLS</p>
+                           <p class="tab-links" onclick="opentab('experience')" data-aos="fade-up">PERSONAL DETAILS</p>
+                           <p class="tab-links" onclick="opentab('education')" data-aos="fade-up">EDUCATION</p>
+                       </div>
+   
+                       <div class="tab-contents active-tab" id="skills" data-aos="fade-up">
+                           <ul>
+                                <li><span>PROTECTIVE</span><br>I'll treat you better</li>
+                               <li><span>LOYALTY</span><br>Madami sana akong babae kung madami ka lang</li>
+                               <li><span>CARING</span><br>Iingatan ka hindi ka ipapakagat sa dinosour</li>
+                               <li><span>PANGUNGULILA</span><br>Mamaw mag i miss u</li>
+                           </ul>
+                       </div>
+                       <div class="tab-contents" id="experience" data-aos="fade-up">
+                           <ul>
+                                <li><span>AGE</span><br>Doesn't matter</li>
+                               <li><span>BIRTHDAY</span><br>June 12 2002</li>
+                               <li><span>CIVIL STATUS</span><br>SINGLE!</li>
+                               <li><span>NATIONALITY</span><br>Filipino</li>
+                               <li><span>SEX</span><br>no experience</li>
+                           </ul>
+                       </div>
+                       <div class="tab-contents" id="education" data-aos="fade-up">
+                           <ul>
+                               <li><span>2014</span><br>Sta Cruz Elementary School</li>
+                               <li><span>2018</span><br>Dasmariñas West National Highschool </li>
+                               <li><span>2020</span><br>Asian Institute of Science and Technology </li>
+                               <li><span>CURRENT</span><br>Cavite State University</li>
+                           </ul>
+                       </div>
+               </div>
+           </div>
+       </div>
+   </div>
+   <!----------hobbies------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title2" data-aos="fade-right">My Hobbies</h1>
+        <div class="services-list" data-aos="flip-up">
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>GAMES</h2>
+                <p>My hobbies is playing video games i play mobile games and computer games.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-basketball"></i>
+                <h2>SPORTS</h2>
+                <p>I played basketball before but i stop when 
+                    i start studying in college but even now I still love basketball.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-user"></i>
+                <h2>HOBBIES</h2>
+                <p>In my free time i spend my time in social media, sometimes i 
+                        read books.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------likes------->
+<div id="porfolio">
+    <div class="container" data-aos="fade-right">
+        <h1 class="sub-title3">Likes</h1>
+        <div class="work-list">
+            <div class="work" data-aos="fade-up" data-aos-duration="1000">
+                <img src="images/me1.jpeg">
+                <div class="layer">
+                    <h3 class="layer-h1">VIDEO GAMES</h3>
+                    <p class="title">MOBILE LEGENDS 
+                        <br>
+                        <br> My highest rank in ML is mythic glory i start playing ML on 2017 and until now i'm still playing.
+                        <br>
+                    <br class="title">LEAGUE OF LEGENDS
+                    <br>
+                        <br> I've been playing lol for a long time but i stop playing when i'm highschool and i play again but i am not that good like before.
+                        <br>
+                    <br class="title">VALORANT
+                    <br>
+                        <br>I'm new player in valorant that's why i am not that good player.</p>
+                    
+                </div>
+            </div>
+            <div class="work" data-aos="fade-up" data-aos-duration="1500">
+                <img src="images/me2.jpg">
+                <div class="layer">
+                    <h3 class="layer-h2">TAGS</h3>
+                    <p  class="title">Music
+                        <br>
+                        <br>
+                        Fashion
+                        <br>
+                    <br>
+                    Movie 
+                     <br>
+                  <br>
+                    Traveling
+                    <br>
+                    <br>
+                    Memes</p>
+                    
+                </div>
+            </div>
+            <div class="work" data-aos="fade-up" data-aos-duration="2000">
+                <img src="images/me3.jpg">
+                <div class="layer">
+                    <h3 class="layer-h3">FAVOURITES</h3>
+                    <p  class="title">Color: red
+                        <br>
+                        <br>Food: Turon, Bistek and Graham
+                    <br>
+                    <br>
+                        Number: 10 </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------contact------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title-contact" data-aos="fade-right">Contact Me</h1>
+                <p data-aos="fade-right"><i class="fa-solid fa-envelope" data-aos="fade-right"></i></i>kuyajp123@gmail.com</p>
+                <p class="p2" data-aos="fade-right"><i class="fa-solid fa-phone" data-aos="fade-right"></i>09278153836</p>
+                <div class="social-icons" data-aos="fade-right">
+                    <a href="https://www.facebook.com/johnpaul.naag.5?mibextid=ZbWKwLp"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/jpnaag/"><i class="fa-brands fa-instagram-square"></i></a>
+                    <a href="https://discord.com/channels/@me"><i class="fa-brands fa-discord"></i></a>
+                </div>
+            </div>
+            <div class="contact-right" data-aos="zoom-in">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name (optional)" optional>
+                    <input type="Email" name=" Email" placeholder="Your Email (optional)" optional>
+                    <textarea name="Message"  rows="6" placeholder="Your Message will be anonymously if you don't put your name." required></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="copyright">
+            <p><i class="fa-sharp fa-solid fa-n"></i>AAG I<i class="fa-sharp fa-solid fa-n"></i>DUSTRIES</p>
+        </div>
+    </div>
+</div>
+<script>
+/*---------about js---------*/
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+    var moon = document.getElementById("moon");
+
+    moon.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.left = "0";
+    }
+    function closemenu(){
+        sidemenu.style.left = "-150px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzkTHxKK2pBxbKdmGWSoSzTcx2E7VWQBpsLL1aKDdRiSWWeR8-guT0vk96DHJK60CAn/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({});
+    </script>
+</body>
+</html>
